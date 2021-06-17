@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Tags</title>
+    <style>
+        .form-div-style {
+            padding: 10px 10px 10px 10px;
+            margin: 10px 10px 10px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Form Tags Example</h2>
+        <form action="/test" method="get">
+            <fieldset>Heloo
+                <div class="form-div-style">
+                    <label>Select Nuber</label>
+                    <input type="number" name="number" id="nebers only">
+                </div>
+                <div class="form-div-style">
+                    <label>Enter Your Email</label>
+                    <input type="email" name="number" id="nebers only">
+                </div>
+                <div class="form-div-style">
+                    <label>Upload Your Resume</label>
+                    <input type="file" name="number" id="nebers only">
+                </div>
+                <div class="form-div-style">
+                    <a href="www.facebook.com">Goto Facebook</a>
+                    <br />
+                    <img src="https://via.placeholder.com/300.png/09f/fff" alt="This Dummy URL">
+                </div>
+                <div class="form-div-style">
+                    <label for="firstName">FirstName</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+                <div class="form-div-style">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+                <div class="form-div-style">
+                    <input type="radio" name="gender" value="Male">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" value="Female">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" value="Other">
+                    <label for="gender">Other</label>
+                </div>
+                <div class="form-div-style">
+                    <input type="checkbox" name="v1" id="v1">
+                    <label for="v1">I have a Bike</label>
+                    <input type="checkbox" name="v2" id="v2">
+                    <label for="v2">I have a Car</label>
+                    <input type="checkbox" name="v3" id="v3">
+                    <label for="v3">I have a Bus</label>
+                </div>
+                <div class="form-div-style">
+                    <label for="v3">Tell me about you</label>
+                    <textarea name="aboutyou" id="" cols="20" rows="5"></textarea>
+                </div>
+
+                <div class="form-div-style">
+                    <label for="UserName">UserName</label>
+                    <input type="text" name="UserName" id="UserName">
+                </div>
+                <div class="form-div-style">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password">
+                </div>
+
+                <div class="form-div-style">
+                    <select name="Choose One" id="one" multiple>
+                        <option value="1">One</option>
+                        <option value="2">2</option>
+                        <option value="3">Three</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <div class="form-div-style">
+                    <select name="Choose One" id="one">
+                        <option value="1">One</option>
+                        <option value="2">2</option>
+                        <option value="3">Three</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+
+                <div class="form-div-style">
+                    <label for="date">Choose Date</label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <div class="form-div-style">
+                    <label for="date">Choose Date</label>
+                    <input type="datetime-local" name="date" id="date">
+                </div>
+                <div class="form-div-style">
+                    <input type="submit" value="Register">
+                </div>
+
+
+                <div class="form-div-style">
+                    <input type="button" value="I am button">
+                </div>
+                <div class="form-div-style"></div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
